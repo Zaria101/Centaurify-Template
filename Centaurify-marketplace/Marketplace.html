@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Centuarify-Marketplace</title>
+   <link rel="stylesheet" href="/Marketplace.css" />
+   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+   <div class="preloader js-preloader">
+      <img src="/img/CSS-Loader-unscreen.gif" alt="Logo">
+
+   </div>
+
+
+
+   <header class="header">
+      <a href="#" class="logo"><img src="/img/Centaurify-logo-white.png" alt="Logo" /></a>
+
+      <input type="checkbox" id="menu-bar" />
+      <label for="menu-bar" class="fas fa-bars"></label>
+
+      <nav class="nav">
+         <ul class="nav__list">
+            <li class="nav__listitem">Marketplace</li>
+            <li class="nav__listitem">Events
+            </li>
+            <li class="nav__listitem">Artists
+               <ul class="nav__listitemdrop">
+                  <li>ERC-20 <i class="fab fa-ethereum"></i></li>
+                  <li>BEP-20 <img src="/img/icons8-binance-16.png" alt="Binance"></li>
+               </ul>
+            </li>
+
+            <li class="nav__listitem">Merch</li>
+            <li class="nav__listitem">More
+               <ul class="nav__listitemdrop-second">
+                  <li>Deck</li>
+                  <li>NFT Deck</li>
+                  <li>Whitepaper</li>
+                  <li>Audit</li>
+                  <li>Roadmap</li>
+                  <li>Contract</li>
+               </ul>
+            </li>
+
+            <form class="search-container">
+               <input type="text" id="search-bar" placeholder="What can I help you with today?">
+               <a href="#"><img class="search-icon" src="/img/magnifying-glass.png"></a>
+            </form>
+
+
+            <a class="cent-btn" href="#">
+               Connect wallet
+            </a>
+
+
+
+
+
+
+         </ul>
+      </nav>
+   </header>
+
+
+
+   <section class="home">
+      <div class="welcome-text-home">
+         <h1>Discover <span class="special-nft-1"><img src="/img/Centaurify-nft1.jpg"></span> Collect <br>And Sell Rare
+            <span class="special-nft"><img src="/img/Centaurify-nft2.jpg"></span>
+
+         </h1>
+      </div>
+
+      <div class="extra-info">
+         <div class="svg-circular-text">
+            <a href="/">
+               <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 500 500">
+                  <defs>
+                     <path d="M50,250c0-110.5,89.5-200,200-200s200,89.5,200,200s-89.5,200-200,200S50,360.5,50,250"
+                        id="textcircle_top">
+                        <animateTransform attributeName="transform" begin="0s" dur="20s" type="rotate" from="0 250 250"
+                           to="360 250 250" repeatCount="indefinite" />
+                     </path>
+                     <path d="M50,250c0-110.5,89.5-200,200-200s200,89.5,200,200s-89.5,200-200,200S50,360.5,50,250"
+                        id="textcircle_bottom">
+                        <animateTransform attributeName="transform" begin="0s" dur="20s" type="rotate"
+                           from="195 250 250" to="555 250 250" repeatCount="indefinite" />
+                     </path>
+                  </defs>
+                  <text dy="70" textLength="1220">
+                     <!-- textLength (essentially the circumference of the circle) is used as an alternative to letter-spacing for Firefox, which currently doesn't support letter-spacing for SVG -->
+                     <textPath xlink:href="#textcircle_top">Explore Nft's ~ Explore Nft's ~ </textPath>
+
+                  </text>
+               </svg>
+            </a>
+         </div>
+
+         <div class="extra-text-info">
+            <h2>The largets NFT music marketplace.Authentic and truly unique digial creations.Signed and issued by the
+               creatod,made and possible by <span class="gradient-text">blockchain technology</span></h2>
+         </div>
+
+
+         <div class="final-welcome-text">
+            <h1>NFTs</h1>
+         </div>
+
+
+
+      </div>
+
+
+
+      <div class="important-partners">
+         <img src="/Partners/Cardano-removebg-preview.png">
+         <img src="/Partners/Certik.png">
+         <img src="/Partners/ethereum-logo-landscape-purple.png">
+         <img src="/Partners/Polkadot-removebg-preview.png">
+         <img src="/Partners/Solana.png">
+      </div>
+   </section>
+
+
+
+   <section class="marketplace">
+      <div class="introduction-text">
+         <h2>NFT Marketplace</h2>
+         <h1>Hot Drops &#128293</h1>
+      </div>
+
+      <div class="marketplace-sections">
+         <ul>
+            <li>Music</li>
+            <li>Sport</li>
+            <li>Trading Card</li>
+            <li>Art</li>
+            <li>Photography</li>
+            <li>Virtual World</li>
+            <li>Videos</li>
+            <li>More</li>
+         </ul>
+         </li>
+      </div>
+
+
+      <div class="example-flex">
+         <div class="grid-cards">
+
+            <div class="card-nft">
+               <img class="sell-nft-img" src="/img/artist-nft1.png">
+               <div class="first-text-info">
+                  <h1>Producer Nft</h1>
+                  <i class="fas fa-ellipsis-h"></i>
+               </div>
+               <p>@daryseven12</p>
+               <div class="last-text-info">
+                  <h1>4.4ETH</h1>
+                  <img src="/img/ethereum.png">
+               </div>
+            </div>
+
+            <div class="card-nft collect-mode">
+               <img class="sell-nft-img collect-image-nft" src="/img/artist-nft2.png">
+               <div class="first-text-info">
+                  <h1>Producer Nft</h1>
+                  <i class="fas fa-ellipsis-h"></i>
+               </div>
+               <p>@daryseven12</p>
+               <div class="last-text-info">
+                  <h1>4.4ETH</h1>
+                  <img src="/img/ethereum.png">
+               </div>
+               <div class="collect-container">
+                  <a class="collect-btn" href="#">Collect Now</a>
+               </div>
+
+            </div>
+
+            <div class="card-nft">
+               <img class="sell-nft-img" src="/img/artist-nft3.png">
+               <div class="first-text-info">
+                  <h1>Producer Nft</h1>
+                  <i class="fas fa-ellipsis-h"></i>
+               </div>
+               <p>@daryseven12</p>
+               <div class="last-text-info">
+                  <h1>4.4ETH</h1>
+                  <img src="/img/ethereum.png">
+               </div>
+            </div>
+
+            <div class="card-nft">
+               <img class="sell-nft-img" src="/img/artist-nft4.png">
+               <div class="first-text-info">
+                  <h1>Producer Nft</h1>
+                  <i class="fas fa-ellipsis-h"></i>
+               </div>
+               <p>@daryseven12</p>
+               <div class="last-text-info">
+                  <h1>4.4ETH</h1>
+                  <img src="/img/ethereum.png">
+               </div>
+            </div>
+
+
+            <div class="card-nft">
+               <img class="sell-nft-img" src="/img/artist-nft5.png">
+               <div class="first-text-info">
+                  <h1>Producer Nft</h1>
+                  <i class="fas fa-ellipsis-h"></i>
+               </div>
+               <p>@daryseven12</p>
+               <div class="last-text-info">
+                  <h1>4.4ETH</h1>
+                  <img src="/img/ethereum.png">
+               </div>
+            </div>
+
+            <div class="card-nft">
+               <img class="sell-nft-img" src="/img/artist-nft6.png">
+               <div class="first-text-info">
+                  <h1>Producer Nft</h1>
+                  <i class="fas fa-ellipsis-h"></i>
+               </div>
+               <p>@daryseven12</p>
+               <div class="last-text-info">
+                  <h1>4.4ETH</h1>
+                  <img src="/img/ethereum.png">
+               </div>
+            </div>
+
+
+
+
+
+         </div>
+      </div>
+
+   </section>
+
+
+
+   <section class="marketplace-upcoming-nfts">
+
+      <div class="introduction-text">
+
+         <h1>UPCOMING NFTs &#9200</h1>
+      </div>
+
+      <div class="grid-upcoming-nfts">
+
+         <div class="card-nft number1">
+            <img class="sell-nft-img" src="/img/artist-nft1.png">
+            <div class="first-text-info">
+               <h1>Producer Nft</h1>
+               <i class="fas fa-ellipsis-h"></i>
+            </div>
+            <p>@daryseven12</p>
+            <div class="last-text-info">
+               <h1>4.4ETH</h1>
+               <img src="/img/ethereum.png">
+            </div>
+         </div>
+
+         <div class="card-nft number2">
+            <img class="sell-nft-img " src="/img/artist-nft2.png">
+            <div class="first-text-info">
+               <h1>Producer Nft</h1>
+               <i class="fas fa-ellipsis-h"></i>
+            </div>
+            <p>@daryseven12</p>
+            <div class="last-text-info">
+               <h1>4.4ETH</h1>
+               <img src="/img/ethereum.png">
+            </div>
+
+         </div>
+
+         <div class="card-nft number3">
+            <img class="sell-nft-img" src="/img/artist-nft3.png">
+            <div class="first-text-info">
+               <h1>Producer Nft</h1>
+               <i class="fas fa-ellipsis-h"></i>
+            </div>
+            <p>@daryseven12</p>
+            <div class="last-text-info">
+               <h1>4.4ETH</h1>
+               <img src="/img/ethereum.png">
+            </div>
+         </div>
+
+         <div class="card-nft number4">
+            <img class="sell-nft-img" src="/img/artist-nft4.png">
+            <div class="first-text-info">
+               <h1>Producer Nft</h1>
+               <i class="fas fa-ellipsis-h"></i>
+            </div>
+            <p>@daryseven12</p>
+            <div class="last-text-info">
+               <h1>4.4ETH</h1>
+               <img src="/img/ethereum.png">
+            </div>
+         </div>
+
+
+         <div class="card-nft number5">
+            <img class="sell-nft-img" src="/img/artist-nft5.png">
+            <div class="first-text-info">
+               <h1>Producer Nft</h1>
+               <i class="fas fa-ellipsis-h"></i>
+            </div>
+            <p>@daryseven12</p>
+            <div class="last-text-info">
+               <h1>4.4ETH</h1>
+               <img src="/img/ethereum.png">
+            </div>
+         </div>
+
+
+
+
+
+
+
+
+
+      </div>
+
+   </section>
+
+
+
+   <section class="subscribe-newsletter">
+
+      <div class="subcribe">
+         <h1>Never miss a drop !</h1>
+         <p>Subcribe to out super-exclusive drop list and be the first to know about upcoming reveal drops</p>
+         <div class="input-subcribe">
+            <input type="text" placeholder="Enter your email adress">
+            <a class="cent-btn" href="#">Subcribe</a>
+         </div>
+      </div>
+   </section>
+
+   <section class="create-and-sellNFTs">
+
+      <div class="introduction-text">
+         <h2>How to be a creator</h2>
+         <h1>Create and sell your NFTs &#10024</h1>
+      </div>
+
+      <div class="card-info-container">
+         <div class="card-info">
+            <img src="/img/create-card.png" alt="Create Artwork">
+            <h2>Create Artwork</h2>
+            <p>Create your collection.Add social <br>links,profile & banner images ,and set <br>a secondary sales fee.
+            </p>
+         </div>
+
+         <div class="card-info">
+            <img src="/img/upload.png" alt="Upload">
+            <h2>Upload</h2>
+            <p>Upload your work,customize your <br> NFTs with properties,stats and <br>unlockable content</p>
+         </div>
+
+         <div class="card-info">
+            <img src="/img/hammer.png" alt="Listing">
+            <h2>Listening</h2>
+            <p>Set up and choose betweem <br>illuctions,fixed-price listenings, and declining <br>price listenings</p>
+         </div>
+
+      </div>
+
+      <div class="button-create-watch">
+         <a class="cent-btn special-width" href="#">Create Now</a>
+         <a class="watch-videoBtn" href="#">Watch Video</a>
+      </div>
+
+   </section>
+
+   <section class="TopCreators-section">
+
+      <div class="introduction-text">
+         <h2>NFT Creator</h2>
+         <h1>Top Creator This Week &#128165</h1>
+      </div>
+
+      <div class="grid-top-creators">
+
+
+
+         <div class="creator-card">
+            <img class="creator-image"src="/Creators-img/Creator-1.jpg">
+            <div class="cretor-info">
+               <h2>TorikHandoko</h2>
+               <div class="eth-info">
+                  <img src="/img/ethereum.png">
+                  <p>14,821.89</p>
+               </div>
+               <i class="fas fa-ellipsis-h" aria-hidden="true"></i>
+            </div>
+         </div>
+
+         <div class="creator-card">
+            <img class="creator-image" src="/Creators-img/Creator-2.jpg">
+            <div class="cretor-info">
+               <h2>TorikHandoko</h2>
+               <div class="eth-info">
+                  <img src="/img/ethereum.png">
+                  <p>14,821.89</p>
+               </div>
+               <i class="fas fa-ellipsis-h" aria-hidden="true"></i>
+            </div>
+         </div>
+
+
+         <div class="creator-card">
+            <img class="creator-image" src="/Creators-img/Creator-3.jpg">
+            <div class="cretor-info">
+               <h2>TorikHandoko</h2>
+               <div class="eth-info">
+                  <img src="/img/ethereum.png">
+                  <p>14,821.89</p>
+               </div>
+               <i class="fas fa-ellipsis-h" aria-hidden="true"></i>
+            </div>
+         </div>
+
+
+
+
+         <div class="creator-card">
+            <img class="creator-image" src="/Creators-img/Creator-4.jpg">
+            <div class="cretor-info">
+               <h2>TorikHandoko</h2>
+               <div class="eth-info">
+                  <img  src="/img/ethereum.png">
+                  <p>14,821.89</p>
+               </div>
+               <i class="fas fa-ellipsis-h" aria-hidden="true"></i>
+            </div>
+         </div>
+
+
+         <div class="creator-card">
+            <img class="creator-image" src="/Creators-img/Creator-5.png">
+            <div class="cretor-info">
+               <h2>TorikHandoko</h2>
+               <div class="eth-info">
+                  <img src="/img/ethereum.png">
+                  <p>14,821.89</p>
+               </div>
+               <i class="fas fa-ellipsis-h" aria-hidden="true"></i>
+            </div>
+         </div>
+
+
+         <div class="creator-card">
+            <img class="creator-image" src="/Creators-img/Creator-6.jpg">
+            <div class="cretor-info">
+               <h2>TorikHandoko</h2>
+               <div class="eth-info">
+                  <img src="/img/ethereum.png">
+                  <p>14,821.89</p>
+               </div>
+               <i class="fas fa-ellipsis-h" aria-hidden="true"></i>
+            </div>
+         </div>
+
+
+
+
+
+         <div class="creator-card">
+            <img class="creator-image" src="/Creators-img/Creator-7.jpg">
+            <div class="cretor-info">
+               <h2>TorikHandoko</h2>
+               <div class="eth-info">
+                  <img src="/img/ethereum.png">
+                  <p>14,821.89</p>
+               </div>
+               <i class="fas fa-ellipsis-h" aria-hidden="true"></i>
+            </div>
+         </div>
+
+
+
+         <div class="creator-card">
+            <img class="creator-image" src="/Creators-img/Creator-8.jpg">
+            <div class="cretor-info">
+               <h2>TorikHandoko</h2>
+               <div class="eth-info">
+                  <img src="/img/ethereum.png">
+                  <p>14,821.89</p>
+               </div>
+               <i class="fas fa-ellipsis-h" aria-hidden="true"></i>
+            </div>
+         </div>
+
+
+         <div class="creator-card">
+            <img class="creator-image" src="/Creators-img/Creator-9.jpg">
+            <div class="cretor-info">
+               <h2>TorikHandoko</h2>
+               <div class="eth-info">
+                  <img src="/img/ethereum.png">
+                  <p>14,821.89</p>
+               </div>
+               <i class="fas fa-ellipsis-h" aria-hidden="true"></i>
+            </div>
+         </div>
+
+
+
+
+      </div>
+
+   </section>
+
+   <!-- Footer start -->
+
+<footer class="footer">
+   <div class="footer-top">
+       <div class="container-footer">
+       <div class="rows">
+           <div class="footer-item">
+               <h3>About us</h3>
+               <p > Centaurify is empowering musicians by leveraging blockchain technology and NFTs.</p>
+           </div>
+ 
+           <div class="footer-item">
+               <h3>QUICK LINKS</h3>
+               <ul >
+                   <li><a href="#">Marketplace</a></li>
+                   <li><a href="#">Deck</a></li>
+                   <li><a href="#">Whitepaper</a></li> 
+                   <li><a href="#">Buy Cent Uniswap</a></li> 
+                   <li><a href="#">Buy Cent PacnkackeSwap</a></li>  
+                    
+               </ul>
+           </div>
+ 
+           <div class="footer-item">
+               <h3>Company</h3>
+               <ul >  
+                   <li><a href="#">About us</a></li>
+                   <li><a href="#">Tokenomics</a></li> 
+                   <li><a href="#">Roadmap</a></li> 
+                   <li><a href="#">Privacy Policy</a></li> 
+                   
+               </ul>
+           </div>
+ 
+           <div class="footer-item">
+             <h3>Social</h3>
+             <ul >
+                 <li><a href="#"> <i class="fab fa-twitter"></i> Twitter</a></li>
+                 <li><a href="#"><i class="fab fa-telegram-plane"></i> Telegram</a></li> 
+                 <li><a href="#"> <i class="fab fa-discord"></i> Discord</a></li> 
+                 <li><a href="#"> <i class="fab fa-medium-m"></i> Medium</a></li>
+                 <li><a href="#"> <i class="fab fa-instagram"></i> Instagram</a></li> 
+                 <li><a href="#"> <i class="fab fa-tiktok"></i> Tiktok</a></li> 
+                 <li><a href="#"> <i class="fab fa-youtube"></i> Youtube</a></li>  
+                 
+             </ul>
+         </div>
+ 
+ 
+       </div>
+   </div>
+   
+   </div>
+ </div>
+ <div class="footer-bottom">
+   <div class="container-footer-bottom">
+     <img src="/img/Centaurify-logo-white.png" alt="logo-footer">
+       <p>Centaurify.com - Fundation © 2022 - All Rights Reserved.</p>
+   </div>
+ </div>
+ </footer>
+ 
+ 
+ 
+ <!-- Footer ends -->
+
+
+
+
+
+   <script src="https://kit.fontawesome.com/b99b7591f9.js" crossorigin="anonymous"></script>
+   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+</body>
+
+</html>
